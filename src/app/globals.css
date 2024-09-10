@@ -25,3 +25,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.ordinalsTxt{
+  color: rgb(255 90 33);
+}
