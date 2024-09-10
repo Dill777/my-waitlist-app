@@ -20,6 +20,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         },
       });
 
+      console.log(`New user created: ${newUser}`);
+
       return res.status(200).json({ message: 'Successful! We will send you detailed information closer to the launch.' });
     } catch (error) {
       return res.status(500).json({ message: 'Error saving data' });
