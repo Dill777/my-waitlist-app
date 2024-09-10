@@ -40,7 +40,7 @@ const HomePage = () => {
     <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white px-4">
       <header className="text-center mb-8">
         <h1 className="text-5xl font-bold mb-4 ordinalsTxt">
-          Join to the waitlist
+          Join the waitlist
         </h1>
         <p className="text-lg text-gray-400 max-w-md mx-auto">
           Be the first to know when we launch. Join the waitlist today and secure your spot!
